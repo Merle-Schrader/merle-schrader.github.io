@@ -2638,9 +2638,10 @@ input, select, textarea {
 			margin: 0;
 		}
 
-		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 15em;
+		#header .image.avatar img {
+			width: 13.0em !important;
+			height: auto !important;
+			max-width: none !important;
 		}
 
 /* Footer */
